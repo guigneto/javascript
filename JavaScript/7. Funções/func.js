@@ -1,34 +1,6 @@
-//exemplo simples
-function torrar(){
-    console.log("Torrando pão")
+//funçoes com parametro
+function torrar(pao){
+    console.log("torrada feita com "+pao)
 }
 
-function injetar(){
-    console.log("Injetando pão")
-    torrar()
-}
-
-injetar()
-
-//exemplo mais pratico:
-function getData(){
-    console.log("pegando dados do usuario")
-}
-
-function checkValues(){
-    console.log("validando dados")
-}
-
-function sendToDatabase(){
-    console.log("cadastrando dados")
-}
-
-function main(){
-    getData()
-    checkValues()
-    sendToDatabase()
-}
-
-main()
-
-//metodos == funçoes
+torrar("pão de forma")
