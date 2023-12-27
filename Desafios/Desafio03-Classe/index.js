@@ -29,9 +29,13 @@ class Heroi {
   }
 }
 
+function main(){
 // Exemplo de uso da classe
 const heroi1 = new Heroi('Herói1', 25, 'mago');
 heroi1.atacar();
 
 const heroi2 = new Heroi('Herói2', 30, 'guerreiro');
 heroi2.atacar();
+}
+
+main()
